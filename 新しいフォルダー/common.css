@@ -1,0 +1,69 @@
+h1 { 
+    background: #eeee10;    /* h1の背景色 */
+    padding:5px;            /* h1の余白 */
+}
+h3 {
+    padding: 3px 6px;               /* h3の余白 */
+    color: #494949;                 /* h3の文字色*/
+    background: transparent;        /* h3の背景色：透明色 */
+    border-left: solid 5px #22ｂｂ77; /* h3の左側の境界に枠線を追加（色指定） */
+}
+input[type="submit"] {
+	color: red;
+	background: #ffffff;
+}
+.btn {
+    padding: 2px 4px;       /* 余白 */
+    color: #101010;         /* 文字色 */
+    border-radius: 3px;     /* 丸い角 */
+    background: #40ff40;    /* ボタン色*/
+}
+#silver_btn {
+	background: silver;
+}
+#blue_btn {
+    background: #8cfffa;    /* ボタン色*/
+}
+#pink_btn {
+    background: #feaec7;    /* ボタン色 */
+}
+#yellow_btn {
+    background: #fdeca6;    /* ボタン色 */
+}
+p {
+    color: red;
+    width: 300px;
+    border: 1px solid black;
+}
+#p_last {
+	color: black;
+	background: yellow;
+	border: 0pt;
+}
+#pcls {
+	color: blue;
+	width: 300px;
+	border: 1px solid green;
+}
+a:hover {
+    background-color: bisque;
+}
+.sbtn {
+  display       : inline-block;
+  border-radius : 10%;         /* 角丸       */
+  font-size     : 18pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 6px 3px;   /* 余白       */
+  background    : #ff0066;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+  border        : 2px solid #000066;    /* 枠の指定 */
+}
+.sbtn:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #000066;     /* 背景色     */
+  background    : #ffff11;     /* 文字色     */
+}
